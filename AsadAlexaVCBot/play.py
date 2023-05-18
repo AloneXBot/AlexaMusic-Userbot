@@ -57,10 +57,10 @@ async def play(client, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"
+                        "❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/ALONE_WAS_BOT"
                     ),
                     InlineKeyboardButton(
-                        "👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"
+                        "👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/AlonesHeaven"
                     ),
                 ]
             ]
@@ -139,7 +139,7 @@ async def play(client, m: Message):
                                         chat_id, songname, ytlink, url, "Audio", 0
                                     )
                                     await huehue.edit(
-                                        f"🎶 **sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}] \n**💬 ᴄʜᴀᴛ** : `{chat_id}`"
+                                        f"🎶 **ᴀʟᴏɴᴇ sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}] \n**💬 ᴄʜᴀᴛ** : `{chat_id}`"
                                     )
                                 except Exception as ep:
                                     await huehue.edit(f"`{ep}`")
